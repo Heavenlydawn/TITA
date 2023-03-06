@@ -125,7 +125,6 @@ nav a:hover {
 .home {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   position: relative;
   margin-block-start: 3%;
   height: 100vh;
@@ -178,8 +177,8 @@ nav a:hover {
   position: absolute;
 }
 .bg:first-child {
-  top: -30%;
-  left: 5%;
+  top: -25%;
+  left: 7%;
 }
 
 .vector-2 {
