@@ -184,7 +184,8 @@ nav a:hover {
 
 .vector-2 {
   position: absolute;
-  bottom: -45%;
+  bottom: -57%;
+  left: 85%;
 }
 .manage {
   display: flex;
@@ -226,7 +227,7 @@ nav a:hover {
 
 .case-img {
   position: absolute;
-  top: 0;
+  top: 10%;
   right: -16%;
 }
 .case h1 {
