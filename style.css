@@ -282,6 +282,7 @@ nav a:hover {
 #service {
   position: relative;
   height: 70vh;
+  margin-block-start: 5%;
 }
 
 .service-bg {
