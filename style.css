@@ -112,8 +112,6 @@ nav a:hover {
   width: 600px;
   height: 900px;
   background: linear-gradient(180deg, #0a33f2 0%, #0224c1 100%);
-  animation: bg-change 20s linear infinite alternate forwards;
-  animation-delay:2s;
 }
 
 .right-section a{
@@ -422,11 +420,13 @@ nav a:hover {
   align-items: baseline;
   height: 50vh;
   margin-block-start: 10%;
+
 }
 
 .footer ul li a {
   font-weight: 600;
   font-size: 20px;
+  color:#000;
 }
 
 .socials{
@@ -442,68 +442,7 @@ nav a:hover {
 
 
 /* Animation */
-@keyframes bg-change {
-  0%{
-    background-color: #1740ff;
-  }
-  5%{
-    background-color: #3333ff;
-  }
-  10%{
-    background-color: #4d4dff;
-  }
-  15%{
-    background: hsl(205, 72%, 37%);
-  }
-  20%{
-    background:hsl(205, 63%, 48%);
-  }
-  25%{
-    background-color: #0080ff;
-  }
-  30%{
-    background-color: #49a6e9";
-  }
-  35%{
-    background-color:#1a8cff ;
-  }
-  40%{
-    background-color: hsl(205, 89%, 70%);
-  }
-  45%{
-    background-color: #3399ff;
-  }
-  50%{
-    background-color: hsl(205, 90%, 76%);
-  }
-  55%{
-    background-color: #4da6ff;
-  }
-  60%{
-    background-color: hsl(205, 86%, 81%);
-  }
-  65%{
-    background-color: #66b3ff;
-  }
-  70%{
-    background-color: #80bfff;
-  }
-  75%{
-    background-color: hsl(205, 90%, 88%);
-  }
-  80%{
-    background-color:  #cce6ff;
-  }
-  85%{
-    background-color: hsl(205, 100%, 96%);
-  }
-  90%{
-    background-color: hsl(205, 32%, 93%);
-  }
-  100%{
-    background-color: #fff;
-  }
-}
+
 
 @keyframes slideInFromLeft {
   0%{
