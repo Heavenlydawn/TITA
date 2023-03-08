@@ -56,10 +56,10 @@ span {
   border: 1px solid #fff;
 }
 .container {
-  min-width: 1550px;
-  max-width: 1550px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 0 40px;
+  overflow-x:hidden;
 }
 /* Header Section */
 header {
@@ -144,6 +144,9 @@ nav a:hover {
 .home img {
   height: 800px;
 }
+.home-left-section{
+  animation: slideInFromLeft 1s ease-in;
+}
 .home-left-section h1 {
   width: 641px;
 }
@@ -156,16 +159,17 @@ nav a:hover {
 
 .home-right-section {
   display: flex;
+  animation: slideInFromRight 1s ease-in;
 }
 .tita-1 {
   position: absolute;
   top: -10%;
-  right: 10%;
+  right: 15%;
 }
 .tita-2 {
   position: absolute;
   top: 10%;
-  right: -8%;
+  right: -4.5%;
 }
 
 .home .btn-light {
@@ -190,15 +194,13 @@ nav a:hover {
 }
 .bg:first-child {
   top: 0%;
-  left: 5%;
-  z-index: -1;
+  left: 0%;
 }
 
 .vector-2 {
   position: absolute;
   top: 50%;
-  right: -85%;
-  z-index: -1;
+  left: 78%;
 }
 .manage {
   display: flex;
@@ -372,7 +374,7 @@ nav a:hover {
 
 .update {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 200px;
   background: url(./images/update-bg.svg), #1740ff;
@@ -500,6 +502,23 @@ nav a:hover {
   }
   100%{
     background-color: #fff;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(0%);
+  }
+}
+@keyframes slideInFromRight {
+  0%{
+      transform: translateX( 100%);
+  }
+  100%{
+      transform: translateX(0%);
   }
 }
 
