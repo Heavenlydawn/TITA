@@ -191,12 +191,14 @@ nav a:hover {
 .bg:first-child {
   top: 0%;
   left: 5%;
+  z-index: -1;
 }
 
 .vector-2 {
   position: absolute;
-  bottom: -50%;
-  left: 85%;
+  top: 50%;
+  right: -85%;
+  z-index: -1;
 }
 .manage {
   display: flex;
@@ -372,7 +374,6 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: auto;
   height: 200px;
   background: url(./images/update-bg.svg), #1740ff;
   border-radius: 30px;
@@ -514,6 +515,10 @@ nav a:hover {
   nav{
     display: none;
   }
+  .container{
+    margin: 0 auto;
+    padding: 0;
+  }
   .nav-toggle{
     display: block;
   
@@ -548,6 +553,9 @@ nav a:hover {
   .manage-content{
     padding: 0 20%;
   }
+  .manage .bg{
+    display: none;
+  }
   .case{
     display: flex;
     flex-direction: column;
@@ -570,7 +578,7 @@ nav a:hover {
   }
   .service-cards{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 5%;
     gap:3rem;
   }
@@ -587,8 +595,6 @@ nav a:hover {
     height: 300px;
     flex-direction: column;
     justify-content: center;
-    background: none;
-    background-color: #000;
   }
   .footer{
     display: grid;
