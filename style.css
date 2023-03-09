@@ -192,13 +192,13 @@ nav a:hover {
 
 .vector-2 {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 78%;
 }
 .manage {
   display: flex;
   justify-content: center;
-  margin-block-start: 10%;
+  margin-block-start: 15%;
 }
 
 .manage p {
