@@ -453,7 +453,7 @@ nav a:hover {
     font-size: 1.3rem;
   }
   nav ul {
-    gap: 5rem;
+    gap: 3rem;
   }
   .btn-dark {
     width: 250x;
@@ -475,7 +475,7 @@ nav a:hover {
     margin-block-start: 7%;
   }
   .home-left-section h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .home-left-section p {
     font-size: 1.5rem;
