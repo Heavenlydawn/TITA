@@ -133,7 +133,7 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin-block-start: 4%;
+  margin-block-start: 8%;
 }
 .home img {
   height: 800px;
