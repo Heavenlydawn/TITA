@@ -530,6 +530,13 @@ nav a:hover {
     font-size: 1.5rem;
   }
 
+  
+  .card {
+    padding: 20px;
+    height:400px;
+  }
+  
+
   .payment {
     flex-direction: column;
   }
@@ -631,6 +638,7 @@ nav a:hover {
 
   .card {
     padding: 20px;
+    height:400px;
   }
   
   .service p {
@@ -658,3 +666,6 @@ nav a:hover {
     font-size: 1.3rem;
   }
 }
+
+
+/* Mobile */
